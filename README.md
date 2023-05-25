@@ -1,16 +1,13 @@
 # ecommerce
 
 A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="left">
+<img width=40% src="screenshots/WhatsApp Image 2023-05-25 at 3.00.13 PM.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="screenshots/WhatsApp Image 2023-05-25 at 3.00.14 PM (1).jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
+<img width=40% src="screenshots/WhatsApp Image 2023-05-25 at 3.00.14 PM (2).jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="screenshots/WhatsApp Image 2023-05-25 at 3.00.14 PM.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="screenshots/WhatsApp Image 2023-05-25 at 3.00.15 PM (1).jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="screenshots/WhatsApp Image 2023-05-25 at 3.00.15 PM.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="screenshots/WhatsApp Image 2023-05-25 at 3.00.16 PM (1).jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="screenshots/WhatsApp Image 2023-05-25 at 3.00.16 PM.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+</p>
