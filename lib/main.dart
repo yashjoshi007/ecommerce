@@ -1,6 +1,9 @@
 import 'package:ecommerce/products.dart';
 import 'package:flutter/material.dart';
 
+import 'components/button.dart';
+import 'components/textfield.dart';
+
 void main() {
   runApp(LoginApp());
 }
@@ -44,8 +47,8 @@ class _LoginScreenState extends State<LoginScreen> {
             title: Text('Login Failed'),
             content: Text('Invalid username or password.'),
             actions: <Widget>[
-              ElevatedButton(
-                child: Text('OK'),
+              MyButton(
+                 text: 'OK',
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
@@ -72,8 +75,8 @@ class _LoginScreenState extends State<LoginScreen> {
               'Welcome, admin!',
               style: TextStyle(fontSize: 24.0),
             ),
-            ElevatedButton(
-              child: Text('Logout'),
+            MyButton(
+              text:'Logout',
               onPressed: () {
                 setState(() {
                   _isLoggedIn = false;
@@ -91,16 +94,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 borderRadius: BorderRadius.circular(10.0),
                 color: Colors.grey[200],
               ),
-              child: TextFormField(
-                controller: _usernameController,
-                decoration: InputDecoration(
-                  labelText: 'Username',
-                  border: InputBorder.none,
-                ),
-                style: TextStyle(
-                  fontSize: 16.0,
-                  color: Colors.black,
-                ),
+              child: MyTextField(
+                controller: _usernameController, hintText: '', obsecureText: false,
               ),
             ),
             SizedBox(height: 16.0),
@@ -110,30 +105,17 @@ class _LoginScreenState extends State<LoginScreen> {
                 borderRadius: BorderRadius.circular(10.0),
                 color: Colors.grey[200],
               ),
-              child: TextFormField(
+              child: MyTextField(
                 controller: _passwordController,
-                obscureText: true,
-                decoration: InputDecoration(
-                  labelText: 'Password',
-                  border: InputBorder.none,
-                ),
-                style: TextStyle(
-                  fontSize: 16.0,
-                  color: Colors.black,
-                ),
+                hintText: 'Password',
+                obsecureText: true,
               ),
             ),
             SizedBox(height: 16.0),
-            ElevatedButton(
-              child: Text('Login'),
+            MyButton(
+              text:'Login',
               onPressed: _login,
-              style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
-                padding: EdgeInsets.symmetric(horizontal: 32.0, vertical: 12.0),
-                textStyle: TextStyle(
-                  fontSize: 18.0,
-                ),
-              ),
+
             ),
           ],
         ),

@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'components/button.dart';
+
 class ProductsScreen extends StatefulWidget {
   @override
   _ProductsScreenState createState() => _ProductsScreenState();
@@ -43,8 +45,8 @@ class _ProductsScreenState extends State<ProductsScreen> {
           ),
 
           actions: <Widget>[
-            ElevatedButton(
-              child: Text('OK'),
+            MyButton(
+              text:'OK',
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -102,7 +104,6 @@ class _ProductsScreenState extends State<ProductsScreen> {
                     '\$${product.price}',
                     style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
                   ),
-
                 ],
               ),
             ),
